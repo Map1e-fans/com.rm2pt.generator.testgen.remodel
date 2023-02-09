@@ -1,0 +1,9 @@
+{
+    "createCashDesk": [
+        {
+            "id": 1,
+            "name": "CashDesk1",
+            "isopened": false
+        }
+    ]
+}

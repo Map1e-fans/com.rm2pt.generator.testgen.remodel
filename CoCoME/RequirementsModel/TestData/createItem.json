@@ -1,0 +1,25 @@
+{
+    "createItem": [
+        {
+            "barcode": 1,
+            "name": "Apple",
+            "price": 10,
+            "stocknumber": 1000,
+            "orderprice": 20
+        },
+        {
+            "barcode": 2,
+            "name": "PineApple",
+            "price": 30,
+            "stocknumber": 1000,
+            "orderprice": 20
+        },
+        {
+            "barcode": 3,
+            "name": "Peach",
+            "price": 12,
+            "stocknumber": 0,
+            "orderprice": 8
+        }
+    ]
+}

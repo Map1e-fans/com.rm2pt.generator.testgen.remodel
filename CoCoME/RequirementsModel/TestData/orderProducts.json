@@ -1,0 +1,24 @@
+{
+    "makeNewOrder": [
+        {
+            "orderid": 1
+        }
+    ],
+    "listAllOutOfStoreProducts": [
+        {}
+    ],
+    "orderItem": [
+        {
+            "barcode": 3,
+            "quantity": 1000
+        }
+    ],
+    "chooseSupplier": [
+        {
+            "supplierID": 1
+        }
+    ],
+    "placeOrder": [
+        {}
+    ]
+}

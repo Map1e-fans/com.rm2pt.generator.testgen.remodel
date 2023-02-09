@@ -1,0 +1,8 @@
+{
+    "changePrice": [
+        {
+            "barcode": 1,
+            "newPrice": 15
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "createStore": [
+        {
+            "id": 1,
+            "name": "Store1",
+            "address": "Address1",
+            "isopened": "false"
+        }
+    ]
+}
