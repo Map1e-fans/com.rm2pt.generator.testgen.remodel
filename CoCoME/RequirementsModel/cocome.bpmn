@@ -62,16 +62,11 @@
   </rootElements>
   <rootElements xsi:type="bpmn:Process" id="_dyaxXIWREe2Q04LSEAn77g" name="InitData">
     <flowElements xsi:type="bpmn:StartEvent" id="_oPwmAIWpEe2CpbdrnuU0vg" outgoing="_uI48kIWpEe2CpbdrnuU0vg"/>
-    <flowElements xsi:type="bpmn:Task" id="_5A2sQIKWEe2cYNO_afMpIg" description="createStore.json" name="manageStore:createStore"/>
-    <flowElements xsi:type="bpmn:Task" id="_7j0YQIKWEe2cYNO_afMpIg" description="createCashDesk.json" name="manageCashDesk:createCashDesk"/>
-    <flowElements xsi:type="bpmn:Task" id="_8rIloIKWEe2cYNO_afMpIg" description="createProductCatalog.json" name="manageProductCatalog:createProductCatalog"/>
-    <flowElements xsi:type="bpmn:Task" id="_-cXSsIKWEe2cYNO_afMpIg" description="createItem.json" name="manageItem:createItem"/>
-    <flowElements xsi:type="bpmn:Task" id="__nWfIIKWEe2cYNO_afMpIg" description="createSupplier.json" name="manageSupplier:createSupplier"/>
-    <flowElements xsi:type="bpmn:Task" id="_MDpssIWVEe2CpbdrnuU0vg" description="createStore.json" name="manageStore:createStore" outgoing="_b4T4QIWVEe2CpbdrnuU0vg" incoming="_uI48kIWpEe2CpbdrnuU0vg"/>
-    <flowElements xsi:type="bpmn:Task" id="_Qmj3MIWVEe2CpbdrnuU0vg" description="createCashDesk.json" name="manageCashDesk:createCashDesk" outgoing="_cN5GsIWVEe2CpbdrnuU0vg" incoming="_b4T4QIWVEe2CpbdrnuU0vg"/>
-    <flowElements xsi:type="bpmn:Task" id="_UKOLMIWVEe2CpbdrnuU0vg" description="createProductCatalog.json" name="manageProductCatalog:createProductCatalog" outgoing="_cjVLMIWVEe2CpbdrnuU0vg" incoming="_cN5GsIWVEe2CpbdrnuU0vg"/>
-    <flowElements xsi:type="bpmn:Task" id="_WjfvsIWVEe2CpbdrnuU0vg" description="createItem.json" name="manageItem:createItem" outgoing="_aKu0QJV8Ee2tZoaS8NUhoA" incoming="_cjVLMIWVEe2CpbdrnuU0vg"/>
-    <flowElements xsi:type="bpmn:Task" id="_YfT8IIWVEe2CpbdrnuU0vg" description="createSupplier.json" name="manageSupplier:createSupplier" outgoing="_0DGyYJV6Ee2tZoaS8NUhoA" incoming="_aKu0QJV8Ee2tZoaS8NUhoA"/>
+    <flowElements xsi:type="bpmn:Task" id="_MDpssIWVEe2CpbdrnuU0vg" description="" name="createStore" outgoing="_b4T4QIWVEe2CpbdrnuU0vg" incoming="_uI48kIWpEe2CpbdrnuU0vg" baseUseCase="manageStore" testData="createStore.json"/>
+    <flowElements xsi:type="bpmn:Task" id="_Qmj3MIWVEe2CpbdrnuU0vg" description="" name="createCashDesk" outgoing="_cN5GsIWVEe2CpbdrnuU0vg" incoming="_b4T4QIWVEe2CpbdrnuU0vg" baseUseCase="manageCashDesk" testData="createCashDesk.json"/>
+    <flowElements xsi:type="bpmn:Task" id="_UKOLMIWVEe2CpbdrnuU0vg" description="" name="createProductCatalog" outgoing="_cjVLMIWVEe2CpbdrnuU0vg" incoming="_cN5GsIWVEe2CpbdrnuU0vg" baseUseCase="manageProductCatalog" testData="createProductCatalog.json"/>
+    <flowElements xsi:type="bpmn:Task" id="_WjfvsIWVEe2CpbdrnuU0vg" description="" name="createItem" outgoing="_aKu0QJV8Ee2tZoaS8NUhoA" incoming="_cjVLMIWVEe2CpbdrnuU0vg" baseUseCase="manageItem" testData="createItem.json"/>
+    <flowElements xsi:type="bpmn:Task" id="_YfT8IIWVEe2CpbdrnuU0vg" description="" name="createSupplier" outgoing="_0DGyYJV6Ee2tZoaS8NUhoA" incoming="_aKu0QJV8Ee2tZoaS8NUhoA" baseUseCase="manageSupplier" testData="createSupplier.json"/>
     <flowElements xsi:type="bpmn:EndEvent" id="_aZslMIWVEe2CpbdrnuU0vg" incoming="_0DGyYJV6Ee2tZoaS8NUhoA"/>
     <flowElements xsi:type="bpmn:SequenceFlow" id="_be5SsIWVEe2CpbdrnuU0vg"/>
     <flowElements xsi:type="bpmn:SequenceFlow" id="_b4T4QIWVEe2CpbdrnuU0vg" targetRef="_Qmj3MIWVEe2CpbdrnuU0vg" sourceRef="_MDpssIWVEe2CpbdrnuU0vg"/>
