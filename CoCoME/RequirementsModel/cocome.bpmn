@@ -48,7 +48,7 @@
     <flowElements xsi:type="bpmn:SequenceFlow" id="_v7znEI_uEe2FnqYUZrHCug" targetRef="_JMAFMIKXEe2cYNO_afMpIg" sourceRef="_mErw8I_uEe2FnqYUZrHCug"/>
     <flowElements xsi:type="bpmn:SequenceFlow" id="_w7lCAI_uEe2FnqYUZrHCug" targetRef="_r6GKAIKZEe2cYNO_afMpIg" sourceRef="_gZIjYI_uEe2FnqYUZrHCug"/>
     <flowElements xsi:type="bpmn:SequenceFlow" id="_1rslQI_yEe2FnqYUZrHCug" targetRef="_hdPEsI_uEe2FnqYUZrHCug" sourceRef="_00ihwIWUEe2CpbdrnuU0vg"/>
-    <flowElements xsi:type="bpmn:SequenceFlow" id="_TutHUKCFEe2XSIWYaLENfQ" description="" targetRef="_lM2NQIpMEe2TiagphRhqhg" sourceRef="_gZIjYI_uEe2FnqYUZrHCug" isLoop="true" loopTimes="2"/>
+    <flowElements xsi:type="bpmn:SequenceFlow" id="_TutHUKCFEe2XSIWYaLENfQ" description="" targetRef="_lM2NQIpMEe2TiagphRhqhg" sourceRef="_gZIjYI_uEe2FnqYUZrHCug" isLoop="true" loopTimes="1"/>
     <flowElements xsi:type="bpmn:ExclusiveGateway" id="_ebAMQKuZEe2YMqIj-7GBMA" name="receiveProduct" outgoing="_gOQSkKuZEe2YMqIj-7GBMA _lIZRUKuZEe2YMqIj-7GBMA" incoming="_fpEh4KuZEe2YMqIj-7GBMA"/>
     <flowElements xsi:type="bpmn:SequenceFlow" id="_fpEh4KuZEe2YMqIj-7GBMA" targetRef="_ebAMQKuZEe2YMqIj-7GBMA" sourceRef="_FpfAsIKXEe2cYNO_afMpIg"/>
     <flowElements xsi:type="bpmn:SequenceFlow" id="_gOQSkKuZEe2YMqIj-7GBMA" targetRef="_hdPEsI_uEe2FnqYUZrHCug" sourceRef="_ebAMQKuZEe2YMqIj-7GBMA"/>

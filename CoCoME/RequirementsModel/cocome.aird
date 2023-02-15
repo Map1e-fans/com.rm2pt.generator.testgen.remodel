@@ -108,7 +108,7 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_yO9hsIKWEe2cYNO_afMpIg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_IMcq0Kg1Ee2GCcxOiJTmgw" name="BuyProduct" repPath="#_IMRrsKg1Ee2GCcxOiJTmgw" changeId="8f196c9c-b81b-414c-bcbd-f41346efe47e">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_IMcq0Kg1Ee2GCcxOiJTmgw" name="BuyProduct" repPath="#_IMRrsKg1Ee2GCcxOiJTmgw" changeId="08ab2d2f-a79f-4790-b1f3-b00f4f515ab0">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.bpmn2.design/description/BPMN2.odesign#//@ownedViewpoints[name='Process']/@ownedRepresentations[name='ProcessDiagram']"/>
         <target xmi:type="bpmn:Process" href="file:/D:/Coding/com.rm2pt.generator.testgen.remodel/CoCoME/RequirementsModel/cocome.bpmn#_xDHZrIKWEe2cYNO_afMpIg"/>
       </ownedRepresentationDescriptors>
@@ -11576,13 +11576,13 @@
                 <styles xmi:type="notation:DrawerStyle" xmi:id="_IOHexKg1Ee2GCcxOiJTmgw"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_IOG3tag1Ee2GCcxOiJTmgw" fontColor="10560" fontName="Microsoft YaHei UI" fontHeight="12" bold="true"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IOG3tqg1Ee2GCcxOiJTmgw" y="132" width="1655"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IOG3tqg1Ee2GCcxOiJTmgw" y="122" width="1655"/>
             </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_IOFpkag1Ee2GCcxOiJTmgw"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_IOFpkqg1Ee2GCcxOiJTmgw"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_IOAxEag1Ee2GCcxOiJTmgw" fontColor="10560" fontName="Microsoft YaHei UI" fontHeight="12" bold="true"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IOAxEqg1Ee2GCcxOiJTmgw" x="522" y="168"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IOAxEqg1Ee2GCcxOiJTmgw" x="138" y="180"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_IMlNsqg1Ee2GCcxOiJTmgw"/>
         <edges xmi:type="notation:Edge" xmi:id="_IPDS4Kg1Ee2GCcxOiJTmgw" type="4001" element="_INjeEKg1Ee2GCcxOiJTmgw" source="_IOHexag1Ee2GCcxOiJTmgw" target="_IO_ogKg1Ee2GCcxOiJTmgw">
@@ -11811,17 +11811,17 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_gOp7MKuZEe2YMqIj-7GBMA" type="4001" element="_gOT89KuZEe2YMqIj-7GBMA" source="_ebetYKuZEe2YMqIj-7GBMA" target="_ZpJLMKg1Ee2GCcxOiJTmgw">
           <children xmi:type="notation:Node" xmi:id="_gOp7NKuZEe2YMqIj-7GBMA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gOp7NauZEe2YMqIj-7GBMA" x="17" y="-10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gOp7NauZEe2YMqIj-7GBMA" x="13" y="-10"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_gOqiQKuZEe2YMqIj-7GBMA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gOqiQauZEe2YMqIj-7GBMA" x="-1" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gOqiQauZEe2YMqIj-7GBMA" x="-3" y="10"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_gOqiQquZEe2YMqIj-7GBMA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gOqiQ6uZEe2YMqIj-7GBMA" x="-56" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gOqiQ6uZEe2YMqIj-7GBMA" x="-61" y="10"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_gOp7MauZEe2YMqIj-7GBMA" routing="Rectilinear"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_gOp7MquZEe2YMqIj-7GBMA" fontName="Microsoft YaHei UI" fontHeight="8" italic="true"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gOp7M6uZEe2YMqIj-7GBMA" points="[-4, 9, -378, -49]$[416, 9, 42, -49]$[416, 24, 42, -34]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gOp7M6uZEe2YMqIj-7GBMA" points="[-2, 4, -376, -54]$[416, 4, 42, -54]$[416, 24, 42, -34]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gOqiRKuZEe2YMqIj-7GBMA" id="(1.0,0.375)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gOqiRauZEe2YMqIj-7GBMA" id="(0.0,0.5)"/>
         </edges>
