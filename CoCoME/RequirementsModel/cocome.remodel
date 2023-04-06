@@ -1,5 +1,3 @@
-
-
 UseCaseModel CoCoME {
 
 	UC::processSale() definedBySSD(ProcessSaleSSD) relatedService(ProcessSaleService) @Description( "The cashier checks out items" )
