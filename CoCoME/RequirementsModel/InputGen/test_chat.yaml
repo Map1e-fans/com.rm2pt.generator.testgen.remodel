@@ -70,3 +70,7 @@ OrderEntry:
   SubAmount: 19.90
 - Quantity: 5
   SubAmount: 9.95
+
+Supplier:
+- Id: 1
+  Name: test
